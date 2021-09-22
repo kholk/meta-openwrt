@@ -12,8 +12,7 @@ DEPENDS = "json-c libubox ubus libnl uci"
 SRC_URI = "\
           git://git.openwrt.org/project/netifd.git;name=netifd \
           file://100-Fix-IFF_LOWER_UP-define.patch \
-          file://network.config \
-	  file://0001-resolv.conf.auto-Use-run-instead-of-tmp.patch \
+          file://network.config
           "
 
 SRCREV_netifd = "42c48866f1c1fce068f41536baa8dd2e80fc08d7"
